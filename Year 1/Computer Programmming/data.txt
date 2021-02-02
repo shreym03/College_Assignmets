@@ -1,0 +1,6 @@
+2012A7PS001U,Indra Gopinath,F,D,8.55
+2012A3PS012U,Mohammed Farhan,M,H,9.62
+2012A1PS004U,Siddharth Krishnamurthi,M,D,6.44
+2012A7PS002U,Syeda Zainab,F,D,9.33
+2012A1PS003U,George Varghese,M,D,8.50
+2012A4PS110U,Unni Menon,M,H,5.50
