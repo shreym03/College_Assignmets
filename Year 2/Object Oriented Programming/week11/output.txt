@@ -1,0 +1,5 @@
+(a*a + b*b + c*c) = 5 Uma 3.400000
+(a*a + b*b + c*c) = 14 Saroja 4.500000
+(a*a + b*b + c*c) = 29 Nirmala 5.600000
+(a*a + b*b + c*c) = 50 Varun 6.700000
+(a*a + b*b + c*c) = 77 Vijay 7.800000
