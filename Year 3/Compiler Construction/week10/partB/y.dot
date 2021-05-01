@@ -1,0 +1,52 @@
+digraph y {
+	edge [fontsize=10];
+	node [shape=box,fontsize=10];
+	orientation=landscape;
+	rankdir=LR;
+	/*
+	margin=0.2;
+	page="8.27,11.69"; // for A4 printing
+	ratio=auto;
+	*/
+
+	q0 [label="0:\l  $accept -> . calclist $end\l  calclist -> . { NUMBER $end }\l  calclist -> . calclist exp EOL\l"];
+	q1 [label="1:\l  $accept -> calclist . $end\l  calclist -> calclist . exp EOL\l  exp -> . factor\l  exp -> . exp ADD factor\l  exp -> . exp SUB factor\l  factor -> . term\l  factor -> . factor MUL term\l  factor -> . factor DIV term\l  term -> . NUMBER\l"];
+	q2 [label="2:\l  term -> NUMBER . { EOL DIV MUL SUB ADD }\l"];
+	q3 [label="3:\l  calclist -> calclist exp . EOL\l  exp -> exp . ADD factor\l  exp -> exp . SUB factor\l"];
+	q4 [label="4:\l  exp -> factor . { EOL SUB ADD }\l  factor -> factor . MUL term\l  factor -> factor . DIV term\l"];
+	q5 [label="5:\l  factor -> term . { EOL DIV MUL SUB ADD }\l"];
+	q6 [label="6:\l  exp -> exp ADD . factor\l  factor -> . term\l  factor -> . factor MUL term\l  factor -> . factor DIV term\l  term -> . NUMBER\l"];
+	q7 [label="7:\l  exp -> exp SUB . factor\l  factor -> . term\l  factor -> . factor MUL term\l  factor -> . factor DIV term\l  term -> . NUMBER\l"];
+	q8 [label="8:\l  calclist -> calclist exp EOL . { NUMBER $end }\l"];
+	q9 [label="9:\l  factor -> factor MUL . term\l  term -> . NUMBER\l"];
+	q10 [label="10:\l  factor -> factor DIV . term\l  term -> . NUMBER\l"];
+	q11 [label="11:\l  exp -> exp ADD factor . { EOL SUB ADD }\l  factor -> factor . MUL term\l  factor -> factor . DIV term\l"];
+	q12 [label="12:\l  exp -> exp SUB factor . { EOL SUB ADD }\l  factor -> factor . MUL term\l  factor -> factor . DIV term\l"];
+	q13 [label="13:\l  factor -> factor MUL term . { EOL DIV MUL SUB ADD }\l"];
+	q14 [label="14:\l  factor -> factor DIV term . { EOL DIV MUL SUB ADD }\l"];
+
+	q0 -> q1 [label="calclist"];
+	q1 -> q2 [label="NUMBER"];
+	q1 -> q3 [label="exp"];
+	q1 -> q4 [label="factor"];
+	q1 -> q5 [label="term"];
+	q3 -> q6 [label="ADD"];
+	q3 -> q7 [label="SUB"];
+	q3 -> q8 [label="EOL"];
+	q4 -> q9 [label="MUL"];
+	q4 -> q10 [label="DIV"];
+	q6 -> q2 [label="NUMBER"];
+	q6 -> q11 [label="factor"];
+	q6 -> q5 [label="term"];
+	q7 -> q2 [label="NUMBER"];
+	q7 -> q12 [label="factor"];
+	q7 -> q5 [label="term"];
+	q9 -> q2 [label="NUMBER"];
+	q9 -> q13 [label="term"];
+	q10 -> q2 [label="NUMBER"];
+	q10 -> q14 [label="term"];
+	q11 -> q9 [label="MUL"];
+	q11 -> q10 [label="DIV"];
+	q12 -> q9 [label="MUL"];
+	q12 -> q10 [label="DIV"];
+}
