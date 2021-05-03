@@ -1,0 +1,32 @@
+ipconfig /release "Ethernet"
+ipconfg /renew "Ethernet"
+
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : SSLAB095
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : BITSDUBAI.LOCAL
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : BITSDUBAI.LOCAL
+   Description . . . . . . . . . . . : Intel(R) Ethernet Connection I217-LM
+   Physical Address. . . . . . . . . : 98-90-96-AC-0F-7B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::340a:8bd:99ac:1aa2%9(Preferred)
+   IPv4 Address. . . . . . . . . . . : 172.16.27.55(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, April 12, 2019 5:52:06 PM
+   Lease Expires . . . . . . . . . . : Tuesday, April 16, 2019 9:44:18 AM
+   Default Gateway . . . . . . . . . : 172.16.27.1
+   DHCP Server . . . . . . . . . . . : 172.16.13.114
+   DHCPv6 IAID . . . . . . . . . . . : 412651670
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-1C-AB-F6-74-98-90-96-AC-0F-7B
+   DNS Servers . . . . . . . . . . . : 172.16.13.111
+                                       172.16.13.112
+   NetBIOS over Tcpip. . . . . . . . : Enabled
