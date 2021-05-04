@@ -1,0 +1,7 @@
+E001 Angel 20000
+E002 Santosh 18000
+E003 Sujala 21000
+S001 Amrutha 1000
+S002 Sudarshan 1500
+S003 Vijaya 2000
+S004 Sadia 2500

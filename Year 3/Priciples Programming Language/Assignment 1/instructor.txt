@@ -1,0 +1,11 @@
+E001 Operating_Systems
+E002 Computer_Architecture
+E003 Artificial_Intelligence
+S001 Computer_Programming_Lab
+S002 DSA_Lab
+S003 Compiler_Lab
+S004 DSA_Lab
+S001 DD_Lab
+S002 Physics_Lab
+S003 Chemiistry_Lab
+S004 Biology_Lab

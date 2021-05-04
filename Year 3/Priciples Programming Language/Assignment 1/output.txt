@@ -1,0 +1,29 @@
+-----Question 1-----
+ E001 20000
+ E002 18000
+ E003 21000
+ S001 1000
+ S002 1500
+ S003 2000
+ S004 2500
+-----Question 2-----
+ S001 Amrutha Computer_Programming_Lab 
+ S001 Amrutha DD_Lab 
+ S002 Sudarshan DSA_Lab 
+ S002 Sudarshan Physics_Lab 
+ S003 Vijaya Compiler_Lab 
+ S003 Vijaya Chemiistry_Lab 
+ S004 Sadia DSA_Lab 
+ S004 Sadia Biology_Lab 
+-----Question 3-----
+S005 Hardy
+S006 Harshit
+S007 Vinayak
+-----Question 4-----
+S005 Hardy 16000 POPL CA  OS
+S006 Harshit 18000 POPL CA  OS
+S007 Vinayak 16000 POPL CA  OS
+S001 Amrutha 18000 POM IR  ML
+S002 Sudarshan 14500 POM IR  HCI
+S003 Vijaya 12000 POM IR  NNFL
+S004 Sadia 12500 POPL IR  OS
